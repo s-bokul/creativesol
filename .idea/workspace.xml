@@ -2,38 +2,234 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2b847fd-c5ff-4659-9cee-2f83d73df013" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/counter.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/error_log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/bbg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/bbg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/bbg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/bbg4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/bbg5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/bblogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/bblogo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/bgbody.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/columns.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/fighting-by-sea-and-sky.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/footerBack.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/item.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/lightbox-blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/lightbox-btn-close.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/lightbox-btn-next.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/lightbox-btn-prev.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/lightbox-ico-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/menu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/pix.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/stamp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/images/subitem.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/mail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index/processForm.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.php" afterPath="$PROJECT_DIR$/services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sky-mega-menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/assets/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/assets/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/assets/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/assets/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/assets/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/assets/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/css/autowidth.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/css/fullwidth.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/css/responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/css/settings (In Konflikt stehende Kopie von Flash Horvath 2013-02-13).css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/css/settings.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/css/simple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/flying.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/google.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/TP_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/badge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/black-150x150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/black-300x156.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/black.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/burger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/coke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/coloredbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/company1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/company2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/company3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/drink1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/drink2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/drink3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/dude1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/dude2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/floor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/girl1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/glare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/glare2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/glare3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/grid-150x150.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/grid-300x300.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/grid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/imac.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/imac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image44.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image45.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image46.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image47.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/image9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/p9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/slide13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/slide21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/slide2_wide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/slide31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/slide3_wide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/slide4_wide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/slide51.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/slide5_wide.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/space.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/strawberries.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/thumb1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/thumb2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/thumb3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/thumb4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/transparent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/video.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/videobutton.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/wide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/wideimage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/slides/wideimage2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/regular_thumb1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/regular_thumb2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/regular_thumb3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/regular_thumb4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/regular_thumb5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/regular_thumb6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/regular_thumb7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/thumb1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/thumb2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/thumb3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/thumb4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/thumb5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/thumbs/thumb6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/accordionswitch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/bgtile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/bullets_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/bullets_round.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/bullets_square.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/buynow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/dragnotch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/dragsliderbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/minishadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/minishadow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/minishadow3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/preview1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/preview2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/preview3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/radio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/selectpreview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/shadow3_large.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/sliderconfigheadline.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_3dch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_3dcv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_boxes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_cubic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_curtainone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_curtainthree.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_curtaintwo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_custom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_fade.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_flyin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_mixed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_papercut.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_slidedown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_slideleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_slideright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_slideup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_slotfadehorizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_slotfadevertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_slotslidehorizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_slotslidevertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_slotzoomhorizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_slotzoomvertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/tiles/transition_turnoff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/images/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/js/jquery.themepunch.plugins.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/js/jquery.themepunch.revolution.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/js/jquery.themepunch.revolution.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/arrow_large_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/arrow_large_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/arrow_left2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/arrow_right2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/arrowleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/arrowright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/arrows.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/black50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/boxed_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/bullet_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/bullets.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/bullets2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/coloredbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/grain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/large_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/large_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/loader2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/navigdots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/navigdots_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/shadow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/shadow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/shadow3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/small_arrows.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/small_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/small_left_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/small_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/small_right_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/timer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/timerdot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/transparent.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/assets/white50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/css/settings (In Konflikt stehende Kopie von Flash Horvath 2013-02-13).css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/css/settings.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/images/decor_inside.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/images/decor_inside_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/images/decor_testimonial.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/images/gradient/g30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/images/gradient/g40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/js/jquery.themepunch.plugins.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/js/jquery.themepunch.revolution.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/flying-design/rs-plugin/js/jquery.themepunch.revolution.min.js" afterPath="" />
     </list>
     <ignored path="creativesol.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -172,6 +368,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creativesol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creativesol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -198,13 +408,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31838906" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31838906" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
