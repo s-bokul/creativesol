@@ -23,7 +23,7 @@
     <script type="text/javascript" src="js/modern/dropdown.js"></script>
     <script type="text/javascript" src="js/jquery.blockUI.js"></script>
 
-    <title>Tile Test CSS</title>
+    <title>Services -- Creative Solution</title>
 </head>
 <!--<body style="background-color: #4ea5c4;" class="metrouicss" onload="prettyPrint()">-->
 <body class="metrouicss" onload="prettyPrint()">
@@ -79,19 +79,7 @@
         </div>
         </div>
         <div style="margin-top: 10px;">
-            <div style="width:150;height: 50px;float: left;display: block;background-color: #fff;">
-                <img src="images/logo-cs.jpg">
-            </div>
-            <div class="nav-menu">
-                <div class="menu">
-                    <a href="home.php">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="services.php" class="current">Services</a>
-                    <a href="">Portfolio</a>
-                    <a href="">News</a>
-                    <a href="">Contact Us</a>
-                </div>
-            </div>
+            <?php include('menu.php'); ?>
         </div>
     </div>
 <script>

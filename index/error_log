@@ -1,2 +1,0 @@
-[07-Oct-2010 10:42:19] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/sssbangl/public_html/cms-admin/db/dba.dll on line 9
-[15-Oct-2010 04:52:54] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'sssbangl'@'localhost' (using password: YES) in /home/sssbangl/public_html/cms-admin/db/dba.dll on line 9
