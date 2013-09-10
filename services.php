@@ -1,3 +1,17 @@
+<?php
+require_once("cms-admin/db/dba.php");
+db_connect();
+if(isset($_GET['page']) && $_GET['page'] != null) {
+    $query_result = query("SELECT * FROM `menus` where menu_id='PG-006' limit 1");
+    $sub_row_result = mysql_fetch_array($query_result);
+    $sub_page_data = $sub_row_result['content'];
+    echo $sub_page_data;
+    exit;
+}
+$result = query("SELECT * FROM `menus` where menu_id='PG-002' limit 1");
+$row_result = mysql_fetch_array($result);
+$page_data = $row_result['content'];
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
 <head>
@@ -11,7 +25,6 @@
     <link href="css/modern-responsive.css" rel="stylesheet">
     <link href="css/site.css" rel="stylesheet" type="text/css">
     <link href="js/google-code-prettify/prettify.css" rel="stylesheet" type="text/css">
-    <link href="css/sky-mega-menu.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" type="text/css">
 
     <script type="text/javascript" src="js/assets/jquery-1.9.0.min.js"></script>
@@ -32,13 +45,13 @@
         <div class="tile triple-vertical double bg-color-blue" style="margin-right: 50px;">
             <div class="tile-content">
                 <h1 style="font-weight: bold;font-size: 20px;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;">Services</h1>
-                <p style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                </p>
+                <div style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
+                    <?php echo $page_data; ?>
+                </div>
             </div>
         </div>
             <div class="tile">
-                <div class="tile-content">
+                <div class="tile-content" id="advertising">
                     <h5>Advertising</h5>
                     <p>Newspaper</p>
                     <p>Magazine</p>
@@ -82,60 +95,6 @@
             <?php include('menu.php'); ?>
         </div>
     </div>
-<script>
-
-    $(document).ready(function(){
-        $('#staticDialog').click(function(e) {
-            $.ajax({
-                url: "http://search-test.jetfuel.co/myipaddress.php",
-                beforeSend: function ( xhr ) {
-                    $.blockUI({
-                        message: "<span style='color: red;font-weight: bold;'>Please Wait ...</span>",
-                        css: {
-                        border: 'none',
-                        padding: '20px',
-                        height: '70px',
-                        backgroundColor: '#000',
-                        '-webkit-border-radius': '10px',
-                        '-moz-border-radius': '10px',
-                        opacity: .5,
-                        color: '#000000'
-                        }
-                    });
-                }
-            }).done(function ( data ) {
-                    $.Dialog({
-                        'title'      : 'Advertising',
-                        'content'    : '<span style="height: auto;width: 500px;display: block;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>',
-                        'draggable'   : true,
-                        'overlay'     : true,
-                        'buttons'    : {
-                            'Ok'    : {
-                                'action': function() {}
-                            }
-                        }
-                    });
-                });
-        });
-        //$(document).ajaxStart($.blockUI);
-        $(document).ajaxStop($.unblockUI);
-        /*$('#setupDialog').click(function(e) {
-            $.Dialog({
-                'title'      : 'Step 1 - Dialog',
-                'content'    : 'This content is the first step.<br /><br /><b>Steps:</b><ol><li>Customize</li><li>Check</li><li>Install!</li></ol>',
-                'draggable'  : true,
-                'keepOpened' : true,
-                'closeButton': true,
-                'buttonsAlign': 'right',
-                'buttons'    : {
-                    'Next'    : {
-                        'action': function() {}
-                    }
-                }
-            });
-        });*/
-    });
-
-</script>
+<script src="js/app.js" type="text/javascript"></script>
 </body>
 </html>
