@@ -52,7 +52,7 @@ $page_data = $row_result['content'];
                 </div>
             </div>
             <div class="tile bg-color-blue triple-vertical">
-                <div class="tile-content" id="advertising">
+                <div class="tile-content" id="about-company">
                     <h5>About Company</h5>
                     <p>Newspaper</p>
                     <p>Magazine</p>
@@ -67,7 +67,7 @@ $page_data = $row_result['content'];
                 </div>
             </div>
             <div class="tile double bg-color-green">
-                <div class="tile-content" id="branding">
+                <div class="tile-content" id="what-we-do">
                     <img src="images/1.jpg" width="80" height="auto" class="place-right">
                     <h5>What We Do</h5>
                     <p>Corporate</p>
@@ -80,7 +80,7 @@ $page_data = $row_result['content'];
                 </div>
             </div>
             <div class="tile double bg-color-orangeDark">
-                <div class="tile-content">
+                <div class="tile-content" id="how-we-do">
                     <img src="images/2.jpg" width="80" height="auto" class="place-right">
                     <h5>How We Do</h5>
                     <p>Corporate</p>
@@ -93,7 +93,7 @@ $page_data = $row_result['content'];
                 </div>
             </div>
             <div class="tile double bg-color-orange">
-                <div class="tile-content">
+                <div class="tile-content" id="who-we-are">
                     <img src="images/3.jpg" width="80" height="auto" class="place-right">
                     <h5>Who We Are</h5>
                     <p>Corporate</p>
@@ -110,6 +110,6 @@ $page_data = $row_result['content'];
             <?php include('menu.php'); ?>
         </div>
     </div>
-<script src="js/app.js" type="text/javascript"></script>
+<script src="js/app-about-us.js" type="text/javascript"></script>
 </body>
 </html>
