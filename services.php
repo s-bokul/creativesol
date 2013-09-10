@@ -44,7 +44,7 @@ $page_data = $row_result['content'];
     <div class="wrapper">
         <div style="height: 470px;">
         <div class="tile triple-vertical double bg-color-blue" style="margin-right: 50px;">
-            <div class="tile-content">
+            <div class="tile-content" style="cursor: default;">
                 <h1 style="font-weight: bold;font-size: 20px;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;">Services</h1>
                 <div style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
                     <?php echo $page_data; ?>
@@ -60,13 +60,38 @@ $page_data = $row_result['content'];
                     <p>TVC/RDC</p>
                     <p>Outdoor</p>
                     <div class="brand">
-                        <img class="icon" src="images/Mail128.png">
+                        <img class="icon" src="images/view-32.png">
                     </div>
                 </div>
             </div>
             <div class="tile double bg-color-green">
-                <div class="tile-content" id="branding">
+                <div class="tile-content" id="graphics-design">
                     <img src="images/michael.jpg" class="place-right">
+                    <h5>Graphics Design</h5>
+                    <p>Brochure</p>
+                    <p>Banner</p>
+                    <p>Flyer</p>
+                    <p>Promotional Item</p>
+                    <div class="brand">
+                        <img class="icon" src="images/Mail128.png">
+                    </div>
+                </div>
+            </div>
+            <div class="tile double bg-color-blue">
+                <div class="tile-content" id="logo-design">
+                    <img src="images/logo-cs.jpg" class="place-right">
+                    <h5>Logo Design</h5>
+                    <p>Logo Concept</p>
+                    <p>Visualization</p>
+                    <p>Development</p>
+                    <p>Re-design</p>
+                    <div class="brand">
+                        <img class="icon" src="images/Camera48.png">
+                    </div>
+                </div>
+            </div>
+            <div class="tile bg-color-orange">
+                <div class="tile-content" id="branding">
                     <h5>Branding</h5>
                     <p>Corporate</p>
                     <p>Product</p>
@@ -77,20 +102,29 @@ $page_data = $row_result['content'];
                     </div>
                 </div>
             </div>
-            <div class="tile double image bg-color-blue">
-                <div class="tile-content">
-                    <img id="staticDialog" src="images/5.jpg">
-                    <div style="z-index: 999;text-align: center;width: 100%;margin-top:380px;position: absolute;background: rgba(1,1,1, .1);height: 800px;"><img src="images/ajax-loader2.gif"></div>
+            <div class="tile bg-color-orangeDark">
+                <div class="tile-content" id="printing">
+                    <h5>Printing</h5>
+                    <p>Publication</p>
+                    <p>Paper</p>
+                    <p>PVC/Media</p>
+                    <p>ID Cards</p>
+                    <p>Garments Accessories</p>
                 </div>
             </div>
-            <div class="tile bg-color-orange"></div>
-        <div class="tile bg-color-teal"></div>
-        <div class="tile double bg-color-redLight">
-            <div class="tile-content">
-                <h2>mattberg@live.com</h2>
-                <h5>Re: Wedding Annoucement!</h5>
+            <div class="tile double bg-color-redLight">
+                <div class="tile-content" id="web-design">
+                    <img src="images/logo-cs.jpg" class="place-right">
+                    <h5>Web Design</h5>
+                    <p>Website</p>
+                    <p>Web application</p>
+                    <p>Domain</p>
+                    <p>Hosting</p>
+                    <div class="brand">
+                        <img class="icon" src="images/grid.png">
+                    </div>
+                </div>
             </div>
-        </div>
         </div>
         <div style="margin-top: 10px;">
             <?php include('menu.php'); ?>
