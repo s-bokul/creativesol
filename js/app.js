@@ -66,21 +66,41 @@ $(document).ready(function(){
                 });
             });
     });
+
+    $('#branding').click(function(e) {
+        $.ajax({
+            type: "GET",
+            url: "/services",
+            data: { id: "PG-007", page: "branding" },
+            beforeSend: function ( xhr ) {
+                $.blockUI({
+                    message: "<span style='color: red;font-weight: bold;'>Please Wait ...</span>",
+                    css: {
+                        border: 'none',
+                        padding: '20px',
+                        height: '70px',
+                        backgroundColor: '#000',
+                        '-webkit-border-radius': '10px',
+                        '-moz-border-radius': '10px',
+                        opacity: .5,
+                        color: '#000000'
+                    }
+                });
+            }
+        }).done(function ( data ) {
+                $.Dialog({
+                    'title'      : 'Branding',
+                    'content'    : '<span style="height: auto;width: 500px;display: block;text-align: justify;">'+ data +'</span>',
+                    'draggable'   : true,
+                    'overlay'     : true,
+                    'buttons'    : {
+                        'Ok'    : {
+                            'action': function() {}
+                        }
+                    }
+                });
+            });
+    });
     //$(document).ajaxStart($.blockUI);
     $(document).ajaxStop($.unblockUI);
-    /*$('#setupDialog').click(function(e) {
-     $.Dialog({
-     'title'      : 'Step 1 - Dialog',
-     'content'    : 'This content is the first step.<br /><br /><b>Steps:</b><ol><li>Customize</li><li>Check</li><li>Install!</li></ol>',
-     'draggable'  : true,
-     'keepOpened' : true,
-     'closeButton': true,
-     'buttonsAlign': 'right',
-     'buttons'    : {
-     'Next'    : {
-     'action': function() {}
-     }
-     }
-     });
-     });*/
 });

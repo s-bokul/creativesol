@@ -2,7 +2,8 @@
 require_once("cms-admin/db/dba.php");
 db_connect();
 if(isset($_GET['page']) && $_GET['page'] != null) {
-    $query_result = query("SELECT * FROM `menus` where menu_id='PG-006' limit 1");
+    $id = $_GET['id'];
+    $query_result = query("SELECT * FROM `menus` where menu_id='".$id."' limit 1");
     $sub_row_result = mysql_fetch_array($query_result);
     $sub_page_data = $sub_row_result['content'];
     echo $sub_page_data;
@@ -64,7 +65,7 @@ $page_data = $row_result['content'];
                 </div>
             </div>
             <div class="tile double bg-color-green">
-                <div class="tile-content">
+                <div class="tile-content" id="branding">
                     <img src="images/michael.jpg" class="place-right">
                     <h5>Branding</h5>
                     <p>Corporate</p>
