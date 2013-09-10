@@ -31,9 +31,11 @@
 <div class="wrapper">
     <div style="height: 470px;">
         <ul class="rslides">
-            <li><img src="http://placehold.it/880x470" alt=""></li>
-            <li><img src="http://placehold.it/880x470" alt=""></li>
-            <li><img src="http://placehold.it/880x470" alt=""></li>
+            <li><img src="images/slide-1.jpg" alt=""></li>
+            <li><img src="images/slide-2.jpg" alt=""></li>
+            <li><img src="images/slide-3.jpg" alt=""></li>
+            <li><img src="images/slide-4.jpg" alt=""></li>
+            <li><img src="images/slide-5.jpg" alt=""></li>
         </ul>
     </div>
     <div style="margin-top: 10px;">
