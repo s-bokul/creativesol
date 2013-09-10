@@ -10,7 +10,7 @@
         <a href="/about-us" <?php if($page == '/about-us') echo 'class="current"'; ?>>About Us</a>
         <a href="/services" <?php if($page == '/services') echo 'class="current"'; ?>">Services</a>
         <a href="" <?php if($page == '/about-usa') echo 'class="current"'; ?>>Portfolio</a>
-        <a href="" <?php if($page == '/about-usa') echo 'class="current"'; ?>>News</a>
+        <a href="" <?php if($page == '/about-usa') echo 'class="current"'; ?>>Clients</a>
         <a href="" <?php if($page == '/about-usa') echo 'class="current"'; ?>>Contact Us</a>
     </div>
 </div>
