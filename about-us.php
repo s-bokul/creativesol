@@ -43,7 +43,7 @@ $page_data = $row_result['content'];
 <body class="metrouicss" onload="prettyPrint()">
     <div class="wrapper">
         <div style="height: 470px;">
-            <div class="tile triple-vertical double bg-color-blue" style="margin-right: 50px;">
+            <div class="tile triple-vertical double bg-color-greenLight" style="margin-right: 50px;">
                 <div class="tile-content">
                     <h1 style="font-weight: bold;font-size: 20px;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;">Services</h1>
                     <div style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
