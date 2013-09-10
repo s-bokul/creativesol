@@ -37,28 +37,30 @@ $page_data = $row_result['content'];
     <script type="text/javascript" src="js/modern/dropdown.js"></script>
     <script type="text/javascript" src="js/jquery.blockUI.js"></script>
 
-    <title>Services -- Creative Solution</title>
+    <title>About Us -- Creative Solution</title>
 </head>
 <!--<body style="background-color: #4ea5c4;" class="metrouicss" onload="prettyPrint()">-->
 <body class="metrouicss" onload="prettyPrint()">
     <div class="wrapper">
         <div style="height: 470px;">
             <div class="tile triple-vertical double bg-color-greenLight" style="margin-right: 50px;">
-                <div class="tile-content">
-                    <h1 style="font-weight: bold;font-size: 20px;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;">Services</h1>
+                <div class="tile-content" style="cursor: default;">
+                    <h1 style="font-weight: bold;font-size: 20px;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;">About Us</h1>
                     <div style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
                         <?php echo $page_data; ?>
                     </div>
                 </div>
             </div>
-            <div class="tile triple-vertical">
+            <div class="tile bg-color-blue triple-vertical">
                 <div class="tile-content" id="advertising">
-                    <h5>Advertising</h5>
+                    <h5>About Company</h5>
                     <p>Newspaper</p>
                     <p>Magazine</p>
                     <p>Website</p>
                     <p>TVC/RDC</p>
                     <p>Outdoor</p>
+                    <br />
+                    <img src="images/author.jpg" width="120" height="auto" class="place-left">
                     <div class="brand">
                         <img class="icon" src="images/Mail128.png">
                     </div>
@@ -66,8 +68,8 @@ $page_data = $row_result['content'];
             </div>
             <div class="tile double bg-color-green">
                 <div class="tile-content" id="branding">
-                    <img src="images/michael.jpg" class="place-right">
-                    <h5>Branding</h5>
+                    <img src="images/1.jpg" width="80" height="auto" class="place-right">
+                    <h5>What We Do</h5>
                     <p>Corporate</p>
                     <p>Product</p>
                     <p>Campaign</p>
@@ -77,13 +79,32 @@ $page_data = $row_result['content'];
                     </div>
                 </div>
             </div>
-            <div class="tile double image bg-color-blue">
+            <div class="tile double bg-color-orangeDark">
                 <div class="tile-content">
-                    <img id="staticDialog" src="images/5.jpg">
-                    <div style="z-index: 999;text-align: center;width: 100%;margin-top:380px;position: absolute;background: rgba(1,1,1, .1);height: 800px;"><img src="images/ajax-loader2.gif"></div>
+                    <img src="images/2.jpg" width="80" height="auto" class="place-right">
+                    <h5>How We Do</h5>
+                    <p>Corporate</p>
+                    <p>Product</p>
+                    <p>Campaign</p>
+                    <p>Re-branding</p>
+                    <div class="brand">
+                        <img class="icon" src="images/Camera48.png">
+                    </div>
                 </div>
             </div>
-            <div class="tile double bg-color-orange"></div>
+            <div class="tile double bg-color-orange">
+                <div class="tile-content">
+                    <img src="images/3.jpg" width="80" height="auto" class="place-right">
+                    <h5>Who We Are</h5>
+                    <p>Corporate</p>
+                    <p>Product</p>
+                    <p>Campaign</p>
+                    <p>Re-branding</p>
+                    <div class="brand">
+                        <img class="icon" src="images/Camera48.png">
+                    </div>
+                </div>
+            </div>
         </div>
         <div style="margin-top: 10px;">
             <?php include('menu.php'); ?>
