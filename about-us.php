@@ -43,30 +43,15 @@ $page_data = $row_result['content'];
 <body class="metrouicss" onload="prettyPrint()">
     <div class="wrapper">
         <div style="height: 470px;">
-            <div class="tile triple-vertical double bg-color-greenLight" style="margin-right: 50px;">
+            <div class="tile triple triple-vertical double bg-color-white" style="margin-left: 50px;">
                 <div class="tile-content" style="cursor: default;">
-                    <h1 style="font-weight: bold;font-size: 20px;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;">About Us</h1>
-                    <div style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
+                    <h1 style="color: #000;font-weight: bold;font-size: 20px;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;">About Us</h1>
+                    <div style="color: #000 !important;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
                         <?php echo $page_data; ?>
                     </div>
                 </div>
             </div>
-            <div class="tile bg-color-blue triple-vertical">
-                <div class="tile-content" id="about-company">
-                    <h5>About Company</h5>
-                    <p>Newspaper</p>
-                    <p>Magazine</p>
-                    <p>Website</p>
-                    <p>TVC/RDC</p>
-                    <p>Outdoor</p>
-                    <br />
-                    <img src="images/author.jpg" width="120" height="auto" class="place-left">
-                    <div class="brand">
-                        <img class="icon" src="images/Mail128.png">
-                    </div>
-                </div>
-            </div>
-            <div class="tile double bg-color-green">
+            <div class="tile double bg-color-blue">
                 <div class="tile-content" id="what-we-do">
                     <img src="images/1.jpg" width="80" height="auto" class="place-right">
                     <h5>What We Do</h5>
@@ -79,7 +64,7 @@ $page_data = $row_result['content'];
                     </div>
                 </div>
             </div>
-            <div class="tile double bg-color-orangeDark">
+            <div class="tile double bg-color-redLight">
                 <div class="tile-content" id="how-we-do">
                     <img src="images/2.jpg" width="80" height="auto" class="place-right">
                     <h5>How We Do</h5>
