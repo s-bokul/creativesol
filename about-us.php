@@ -46,7 +46,7 @@ $page_data = $row_result['content'];
             <div class="tile triple triple-vertical double bg-color-white" style="margin-left: 50px;">
                 <div class="tile-content" style="cursor: default;">
                     <h1 style="color: #000;font-weight: bold;font-size: 20px;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;">About Us</h1>
-                    <div style="color: #000 !important;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
+                    <div style="color: #000000 !important;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
                         <?php echo $page_data; ?>
                     </div>
                 </div>
