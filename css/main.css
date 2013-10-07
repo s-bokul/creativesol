@@ -15,10 +15,13 @@
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
     display: block;
 }
+.menu {
+    float: right;
+}
 .menu a{
     font-family: 'Segoe UI','Open Sans',Verdana,Arial,Helvetica,sans-serif;
     display: inline-block;
-    padding: 2.5px 33px;
+    padding: 2.5px 50px;
     text-decoration: none;
     color: #fff;
     background: #ee1111;

@@ -53,14 +53,11 @@ $page_data = $row_result['content'];
             </div>
             <div class="tile double bg-color-blue">
                 <div class="tile-content" id="what-we-do">
-                    <img src="images/1.jpg" width="80" height="auto" class="place-right">
-                    <h5>What We Do</h5>
-                    <p>Corporate</p>
-                    <p>Product</p>
-                    <p>Campaign</p>
-                    <p>Re-branding</p>
-                    <div class="brand">
-                        <img class="icon" src="images/Camera48.png">
+                    <div style="width: 40%;float: left;padding: 5px;margin-top: 60px;">
+                        <span style="font-size: 30px;font-weight: bold;text-transform: uppercase;">What We Do</span>
+                    </div>
+                    <div style="width: 56%;margin-left: 10px;padding: 5px;float: left;text-align: justify;color: #000;">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam
                     </div>
                 </div>
             </div>
