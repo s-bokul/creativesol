@@ -9,7 +9,7 @@ if(isset($_GET['page']) && $_GET['page'] != null) {
     echo $sub_page_data;
     exit;
 }
-$result = query("SELECT * FROM `menus` where menu_id='PG-002' limit 1");
+$result = query("SELECT * FROM `menus` where menu_id='PG-004' limit 1");
 $row_result = mysql_fetch_array($result);
 $page_data = $row_result['content'];
 ?>

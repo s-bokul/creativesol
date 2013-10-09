@@ -42,7 +42,7 @@ $page_data = $row_result['content'];
 <!--<body style="background-color: #4ea5c4;" class="metrouicss" onload="prettyPrint()">-->
 <body class="metrouicss" onload="prettyPrint()">
     <div class="wrapper" style="height: 870px;">
-        <div style="height: auto;width: 870px;text-align: center;display: block;margin: 0 auto;">
+        <div style="height: auto;width: 870px;text-align: center;display: block;margin: 0 auto;margin-left: 50px;">
             <div class="tile image">
                 <div class="tile-content">
                     <img src="image_clients/ADTL.jpg" alt="">
