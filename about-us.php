@@ -43,8 +43,20 @@ $page_data = $row_result['content'];
 <body class="metrouicss" onload="prettyPrint()">
     <div class="wrapper">
         <div style="height: 470px;">
-            <div class="tile triple triple-vertical double bg-color-white" style="margin-left: 50px;">
-                <div class="tile-content" style="cursor: default;">
+            <div style="width: 92%;height: 80px;display: block;text-align: right;background-color: #8FC644;margin: 0px auto 10px;padding: 20px;">
+                <div style="">
+                    <span style="font-size: 15px;font-weight: bold;color: #fff;text-transform: uppercase;">
+                        About
+                    </span>
+                    <br />
+                    <span style="font-size: 40px;font-weight: bold;color: #fff;text-transform: uppercase;">
+                        Us
+                    </span>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="tile triple triple-vertical bg-color-white" style="margin-left: 50px;">
+                <div class="tile-content long-text" style="cursor: default;">
                     <h1 style="color: #000;font-weight: bold;font-size: 20px;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;">About Us</h1>
                     <div style="color: #000000 !important;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
                         <?php echo $page_data; ?>
@@ -63,27 +75,21 @@ $page_data = $row_result['content'];
             </div>
             <div class="tile double bg-color-redLight">
                 <div class="tile-content" id="how-we-do">
-                    <img src="images/2.jpg" width="80" height="auto" class="place-right">
-                    <h5>How We Do</h5>
-                    <p>Corporate</p>
-                    <p>Product</p>
-                    <p>Campaign</p>
-                    <p>Re-branding</p>
-                    <div class="brand">
-                        <img class="icon" src="images/Camera48.png">
+                    <div style="width: 40%;float: left;padding: 5px;margin-top: 60px;">
+                        <span style="font-size: 30px;font-weight: bold;text-transform: uppercase;">How <span style="font-size: 24px;">We Do</span></span>
+                    </div>
+                    <div style="width: 56%;margin-left: 10px;padding: 5px;float: left;text-align: justify;color: #000;">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam
                     </div>
                 </div>
             </div>
             <div class="tile double bg-color-orange">
                 <div class="tile-content" id="who-we-are">
-                    <img src="images/3.jpg" width="80" height="auto" class="place-right">
-                    <h5>Who We Are</h5>
-                    <p>Corporate</p>
-                    <p>Product</p>
-                    <p>Campaign</p>
-                    <p>Re-branding</p>
-                    <div class="brand">
-                        <img class="icon" src="images/Camera48.png">
+                    <div style="width: 40%;float: left;padding: 5px;margin-top: 50px;">
+                        <span style="font-size: 30px;font-weight: bold;text-transform: uppercase;">Our <span style="font-size: 16px;">Working Process</span></span>
+                    </div>
+                    <div style="width: 56%;margin-left: 10px;padding: 5px;float: left;text-align: justify;color: #000;">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam
                     </div>
                 </div>
             </div>

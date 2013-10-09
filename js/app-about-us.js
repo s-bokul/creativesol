@@ -126,7 +126,7 @@ $(document).ready(function(){
             }
         }).done(function ( data ) {
                 $.Dialog({
-                    'title'      : 'Who we are',
+                    'title'      : 'Our Working Process',
                     'content'    : '<span style="height: auto;width: 500px;display: block;text-align: justify;">'+ data +'</span>',
                     'draggable'   : true,
                     'overlay'     : true,

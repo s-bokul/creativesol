@@ -43,85 +43,39 @@ $page_data = $row_result['content'];
 <body class="metrouicss" onload="prettyPrint()">
     <div class="wrapper">
         <div style="height: 470px;">
-        <div class="tile triple-vertical double bg-color-blue" style="margin-right: 50px;">
-            <div class="tile-content" style="cursor: default;">
-                <h1 style="font-weight: bold;font-size: 20px;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;">Services</h1>
-                <div style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
-                    <?php echo $page_data; ?>
+            <div style="width: 92%;height: 80px;display: block;text-align: right;background-color: #8FC644;margin: 0px auto 10px;padding: 20px;">
+                <div style="">
+                    <span style="font-size: 40px;font-weight: bold;color: #fff;text-transform: uppercase;">
+                        Our
+                    </span>
+                    <br />
+                    <span style="font-size: 15px;font-weight: bold;color: #fff;text-transform: uppercase;">
+                        Services
+                    </span>
                 </div>
             </div>
-        </div>
-            <div class="tile">
-                <div class="tile-content" id="advertising">
-                    <h5>Advertising</h5>
-                    <p>Newspaper</p>
-                    <p>Magazine</p>
-                    <p>Website</p>
-                    <p>TVC/RDC</p>
-                    <p>Outdoor</p>
-                    <div class="brand">
-                        <img class="icon" src="images/view-32.png">
+            <div style="clear: both;"></div>
+            <div class="tile triple-vertical triple bg-color-white" style="margin-left: 50px;">
+                <div class="tile-content" style="cursor: default;">
+                    <h1 style="font-weight: bold;font-size: 20px;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;color: #000;">Services</h1>
+                    <div style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;font-size: 13px;width: 100%;text-align: justify;margin-top: 15px;">
+                        <?php echo $page_data; ?>
                     </div>
                 </div>
             </div>
-            <div class="tile double bg-color-green">
-                <div class="tile-content" id="graphics-design">
-                    <img src="images/michael.jpg" class="place-right">
-                    <h5>Graphics Design</h5>
-                    <p>Brochure</p>
-                    <p>Banner</p>
-                    <p>Flyer</p>
-                    <p>Promotional Item</p>
-                    <div class="brand">
-                        <img class="icon" src="images/Mail128.png">
-                    </div>
-                </div>
-            </div>
-            <div class="tile double bg-color-blue">
-                <div class="tile-content" id="logo-design">
-                    <img src="images/logo-cs.jpg" class="place-right">
-                    <h5>Logo Design</h5>
-                    <p>Logo Concept</p>
-                    <p>Visualization</p>
-                    <p>Development</p>
-                    <p>Re-design</p>
-                    <div class="brand">
-                        <img class="icon" src="images/Camera48.png">
-                    </div>
-                </div>
-            </div>
-            <div class="tile bg-color-orange">
-                <div class="tile-content" id="branding">
-                    <h5>Branding</h5>
-                    <p>Corporate</p>
-                    <p>Product</p>
-                    <p>Campaign</p>
-                    <p>Re-branding</p>
-                    <div class="brand">
-                        <img class="icon" src="images/Camera48.png">
-                    </div>
-                </div>
-            </div>
-            <div class="tile bg-color-orangeDark">
-                <div class="tile-content" id="printing">
-                    <h5>Printing</h5>
-                    <p>Publication</p>
-                    <p>Paper</p>
-                    <p>PVC/Media</p>
-                    <p>ID Cards</p>
-                    <p>Garments Accessories</p>
-                </div>
-            </div>
-            <div class="tile double bg-color-redLight">
-                <div class="tile-content" id="web-design">
-                    <img src="images/logo-cs.jpg" class="place-right">
-                    <h5>Web Design</h5>
-                    <p>Website</p>
-                    <p>Web application</p>
-                    <p>Domain</p>
-                    <p>Hosting</p>
-                    <div class="brand">
-                        <img class="icon" src="images/grid.png">
+            <style>
+                .service-menu {
+                    font-size: 24px;
+                    color: #000;
+                    text-transform: uppercase;
+                }
+            </style>
+            <div class="tile triple-vertical double bg-color-white">
+                <div class="tile-content" id="who-we-are" style="cursor: default;">
+                    <div style="width: 100%;float: left;padding: 5px;">
+                        <div class="service-menu">
+                            <a href="javascript:void(0);" id="advertising" style="font-size: 24px;color: #000;text-transform: uppercase;font-weight: bold;text-align: right;border-bottom: 1px;border-bottom-color: #b3b3b3;display: block;border-bottom-style: solid;padding-bottom: 8px;">Advertising</a>
+                        </div>
                     </div>
                 </div>
             </div>
