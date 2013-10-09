@@ -74,7 +74,32 @@ $page_data = $row_result['content'];
                 <div class="tile-content" id="who-we-are" style="cursor: default;">
                     <div style="width: 100%;float: left;padding: 5px;">
                         <div class="service-menu">
-                            <a href="javascript:void(0);" id="advertising" style="font-size: 24px;color: #000;text-transform: uppercase;font-weight: bold;text-align: right;border-bottom: 1px;border-bottom-color: #b3b3b3;display: block;border-bottom-style: solid;padding-bottom: 8px;">Advertising</a>
+                            <a href="javascript:void(0);" id="advertising" style="font-size: 24px;color: #000;text-transform: uppercase;font-weight: bold;text-align: right;border-bottom: 1px;border-bottom-color: #b3b3b3;display: block;border-bottom-style: solid;padding-bottom: 8px;">Advertising <img src="/images/bage-busy.png"></a>
+                        </div>
+                    </div>
+                    <div style="width: 100%;float: left;padding: 5px;margin-top: 20px;">
+                        <div class="service-menu">
+                            <a href="javascript:void(0);" id="branding" style="font-size: 24px;color: #000;text-transform: uppercase;font-weight: bold;text-align: right;border-bottom: 1px;border-bottom-color: #b3b3b3;display: block;border-bottom-style: solid;padding-bottom: 8px;">Branding <img src="/images/bage-busy.png"></a>
+                        </div>
+                    </div>
+                    <div style="width: 100%;float: left;padding: 5px;margin-top: 20px;">
+                        <div class="service-menu">
+                            <a href="javascript:void(0);" id="logo-design" style="font-size: 24px;color: #000;text-transform: uppercase;font-weight: bold;text-align: right;border-bottom: 1px;border-bottom-color: #b3b3b3;display: block;border-bottom-style: solid;padding-bottom: 8px;">Logo Design <img src="/images/bage-busy.png"></a>
+                        </div>
+                    </div>
+                    <div style="width: 100%;float: left;padding: 5px;margin-top: 20px;">
+                        <div class="service-menu">
+                            <a href="javascript:void(0);" id="graphics-design" style="font-size: 24px;color: #000;text-transform: uppercase;font-weight: bold;text-align: right;border-bottom: 1px;border-bottom-color: #b3b3b3;display: block;border-bottom-style: solid;padding-bottom: 8px;">Graphics Design <img src="/images/bage-busy.png"></a>
+                        </div>
+                    </div>
+                    <div style="width: 100%;float: left;padding: 5px;margin-top: 20px;">
+                        <div class="service-menu">
+                            <a href="javascript:void(0);" id="printing" style="font-size: 24px;color: #000;text-transform: uppercase;font-weight: bold;text-align: right;border-bottom: 1px;border-bottom-color: #b3b3b3;display: block;border-bottom-style: solid;padding-bottom: 8px;">Printing <img src="/images/bage-busy.png"></a>
+                        </div>
+                    </div>
+                    <div style="width: 100%;float: left;padding: 5px;margin-top: 20px;">
+                        <div class="service-menu">
+                            <a href="javascript:void(0);" id="web-design" style="font-size: 24px;color: #000;text-transform: uppercase;font-weight: bold;text-align: right;border-bottom: 1px;border-bottom-color: #b3b3b3;display: block;border-bottom-style: solid;padding-bottom: 8px;">Web Design <img src="/images/bage-busy.png"></a>
                         </div>
                     </div>
                 </div>
