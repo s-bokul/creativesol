@@ -2,7 +2,7 @@
     $page = $_SERVER['REQUEST_URI'];
 ?>
 <div style="width:150;height: 50px;float: left;display: block;background-color: #fff;">
-    <a href="/"><img src="/images/logo-cs.jpg"></a>
+    <a href="/"><img src="/images/logo.png"></a>
 </div>
 <div class="nav-menu">
     <div class="menu">

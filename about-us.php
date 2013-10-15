@@ -43,15 +43,9 @@ $page_data = $row_result['content'];
 <body class="metrouicss" onload="prettyPrint()">
     <div class="wrapper">
         <div style="height: 470px;">
-            <div style="width: 92%;height: 80px;display: block;text-align: right;background-color: #8FC644;margin: 0px auto 10px;padding: 20px;">
+            <div style="width: 100%;height: 80px;display: block;text-align: right;background:url('images/aboutus.png') repeat;background-color: #8FC644;margin: 0px auto 10px;padding-right: 20px;">
                 <div style="">
-                    <span style="font-size: 15px;font-weight: bold;color: #fff;text-transform: uppercase;">
-                        About
-                    </span>
-                    <br />
-                    <span style="font-size: 40px;font-weight: bold;color: #fff;text-transform: uppercase;">
-                        Us
-                    </span>
+                    <img src="images/About-Us.png">
                 </div>
             </div>
             <div style="clear: both;"></div>
