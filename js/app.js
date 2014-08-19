@@ -1,7 +1,9 @@
 $(document).ready(function(){
     $('#logo-design').click(function(e) {
         $.ajax({
-            url: "http://search-test.jetfuel.co/myipaddress.php",
+            type: "GET",
+            url: "/services",
+            data: { id: "PG-011", page: "logo-design" },
             beforeSend: function ( xhr ) {
                 $.blockUI({
                     message: "<span style='color: red;font-weight: bold;'>Please Wait ...</span>",
@@ -36,7 +38,7 @@ $(document).ready(function(){
         $.ajax({
             type: "GET",
             url: "/services",
-            data: { id: "PG-006", page: "advertising" },
+            data: { id: "PG-009", page: "advertising" },
             beforeSend: function ( xhr ) {
                 $.blockUI({
                     message: "<span style='color: red;font-weight: bold;'>Please Wait ...</span>",
@@ -71,7 +73,7 @@ $(document).ready(function(){
         $.ajax({
             type: "GET",
             url: "/services",
-            data: { id: "PG-007", page: "branding" },
+            data: { id: "PG-010", page: "branding" },
             beforeSend: function ( xhr ) {
                 $.blockUI({
                     message: "<span style='color: red;font-weight: bold;'>Please Wait ...</span>",
@@ -106,7 +108,7 @@ $(document).ready(function(){
         $.ajax({
             type: "GET",
             url: "/services",
-            data: { id: "PG-008", page: "graphics-design" },
+            data: { id: "PG-012", page: "graphics-design" },
             beforeSend: function ( xhr ) {
                 $.blockUI({
                     message: "<span style='color: red;font-weight: bold;'>Please Wait ...</span>",
@@ -141,7 +143,7 @@ $(document).ready(function(){
         $.ajax({
             type: "GET",
             url: "/services",
-            data: { id: "PG-009", page: "printing" },
+            data: { id: "PG-013", page: "printing" },
             beforeSend: function ( xhr ) {
                 $.blockUI({
                     message: "<span style='color: red;font-weight: bold;'>Please Wait ...</span>",
@@ -176,7 +178,7 @@ $(document).ready(function(){
         $.ajax({
             type: "GET",
             url: "/services",
-            data: { id: "PG-010", page: "web-design" },
+            data: { id: "PG-014", page: "web-design" },
             beforeSend: function ( xhr ) {
                 $.blockUI({
                     message: "<span style='color: red;font-weight: bold;'>Please Wait ...</span>",

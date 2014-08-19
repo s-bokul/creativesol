@@ -38,7 +38,7 @@ $(document).ready(function(){
         $.ajax({
             type: "GET",
             url: "/services",
-            data: { id: "PG-007", page: "what-we-do" },
+            data: { id: "PG-006", page: "what-we-do" },
             beforeSend: function ( xhr ) {
                 $.blockUI({
                     message: "<span style='color: red;font-weight: bold;'>Please Wait ...</span>",
@@ -73,7 +73,7 @@ $(document).ready(function(){
         $.ajax({
             type: "GET",
             url: "/services",
-            data: { id: "PG-008", page: "how-we-do" },
+            data: { id: "PG-007", page: "how-we-do" },
             beforeSend: function ( xhr ) {
                 $.blockUI({
                     message: "<span style='color: red;font-weight: bold;'>Please Wait ...</span>",
@@ -108,7 +108,7 @@ $(document).ready(function(){
         $.ajax({
             type: "GET",
             url: "/services",
-            data: { id: "PG-009", page: "who-we-are" },
+            data: { id: "PG-008", page: "who-we-are" },
             beforeSend: function ( xhr ) {
                 $.blockUI({
                     message: "<span style='color: red;font-weight: bold;'>Please Wait ...</span>",

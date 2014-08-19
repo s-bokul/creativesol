@@ -7,8 +7,8 @@
 <div class="nav-menu">
     <div class="menu">
         <a href="/about-us" <?php if($page == '/about-us') echo 'class="current"'; ?>>About Us</a>
-        <a href="/services" <?php if($page == '/services') echo 'class="current"'; ?>">Services</a>
+        <a href="/services" <?php if($page == '/services') echo 'class="current"'; ?>>Services</a>
         <a href="/clients" <?php if($page == '/clients') echo 'class="current"'; ?>>Clients</a>
-        <a href="#" <?php if($page == '/about-usa') echo 'class="current"'; ?>>Contact Us</a>
+        <a href="/contact-us" <?php if($page == '/contact-us') echo 'class="current"'; ?>>Contact Us</a>
     </div>
 </div>
